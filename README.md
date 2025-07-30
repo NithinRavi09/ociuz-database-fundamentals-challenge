@@ -4,6 +4,9 @@ This project is part of a technical assessment to demonstrate understanding of c
 
 ## Tech Stack
 
+### Clone the repository using Git
+git clone https://github.com/NithinRavi09/ociuz-database-fundamentals-challenge.git
+
 - **Database**: PostgreSQL
 - **SQL Files**:
   - `schema.sql`: Database schema with tables and constraints
