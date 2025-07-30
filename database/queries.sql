@@ -16,6 +16,8 @@ SELECT * FROM orders
 WHERE order_date BETWEEN '2025-07-01' AND '2025-07-30'
 AND status = 'Completed';
 
+--Groups all the rows in the orders table by the value of the status column. 
+--counts how many orders exist in each status.
 SELECT status, COUNT(*) AS order_count
 FROM orders
 GROUP BY status;
